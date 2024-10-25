@@ -1,0 +1,137 @@
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+
+/* navbar */
+.btn-primary{
+  color: rgb(230, 83, 60);
+}
+.HOME{
+  display: flex;
+ gap: 20px;
+ box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+}
+.button{
+  width: 92px;
+height: 28px;
+gap: 20px;
+border-radius: 46px;
+text-align: center;
+
+}
+
+.Fitness{
+  display: flex;
+  justify-content: space-evenly;
+ font-weight: 800px;
+}
+
+.nav2{
+ width: 320px;
+ height: 500px;
+ margin-top: 200px;
+ 
+}
+
+.club{
+  background-color:rgb(230, 83, 60) ;
+   color: aliceblue;
+   width: 100px;
+height: 35px;
+justify-content: center;
+font-size: smaller;
+}
+
+.download{
+  width: 100px;
+  height: 35px;
+  ;
+}
+
+
+.healthy{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1440px;
+height: 715px;
+}
+
+/* .header{
+  width: 1440px;
+  height: 200px;
+
+} */
+
+.habits{
+  text-align: center;
+  
+}
+
+.cart1 , .cart2 , .cart3 , .cart4{
+  width: 231px;
+height: 274px;
+text-align: center;
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.round{
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;  
+  object-fit: cover;
+}
+ .run{
+  display: flex;
+  width: 1060px;
+height: 371px;
+gap: 200px;
+border-radius: 18px;
+margin-top: 30px;
+background: rgb(34, 34, 34);
+margin-right: 150px;
+margin-left: 150px;
+ }
+   .focus{
+    padding: 40px;
+   }
+.RUN{
+  width: 366px;
+height: 312px;
+padding: 40px;
+border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+@media  screen and (max-width: 576px){
+  
+ .cart ,.header , .healthy{
+  flex-direction: column;
+ }
+  .RUN{
+
+    flex-direction: column;
+  }
+}
