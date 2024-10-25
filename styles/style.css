@@ -116,11 +116,19 @@ padding: 40px;
 border-radius: 60px;
 }
 
+.team{
+  text-align: center;
+}
 
-
-
-
-
+.caption-container{}
+.caption{
+  
+}
+.image{
+  width: 326.67px;
+height: 272px;
+border-radius: 18px
+}
 
 
 
